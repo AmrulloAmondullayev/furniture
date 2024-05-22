@@ -117,6 +117,69 @@
   color: #fff;
 }
 
+/* offer-section */
+
+.offer-img {
+  background-position: center;
+  background-size: cover;
+  width: 554px;
+  height: 443px;
+  background-image: url("./lui-peng-8NxTrV6i4WQ-unsplash\ 1.jpg");
+}
+
+.offer {
+  margin: 100px 0;
+}
+
+.offer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.offer-img {
+}
+.offer-info {
+}
+.offer-title {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  max-width: 508px;
+  margin-bottom: 14px;
+}
+.offer-text {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+.offer-service {
+  padding-left: 50px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.servoce-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.serrvice-text {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.offer-service::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-image: url("./ticked.svg");
+  left: 10px;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 768px) {
   .header__menu {
     gap: 25px;
@@ -132,6 +195,44 @@
   .hero-btn {
     font-size: 16px;
     padding: 15px 45px;
+  }
+  .statictic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 40px 48px;
+    gap: 45px;
+    border-radius: 20px;
+  }
+  .statictic-num {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  .statictic-text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .line {
+    display: block;
+    width: 2px;
+    margin-left: 100px;
+  }
+
+  .line-none {
+    display: none;
+  }
+  .offer-wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .offer-title {
+    margin: 0 auto 14px;
+  }
+  .offer-text {
+    text-align: center;
   }
 }
 
@@ -161,5 +262,34 @@
     line-height: 21px;
     font-weight: 600;
     border-radius: 5px;
+  }
+
+  .statictic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    padding: 40px 48px;
+    gap: 45px;
+    border-radius: 20px;
+  }
+  .statictic-num {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+  }
+
+  .statictic-text {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  .line {
+    display: block;
+    width: 2px;
+    margin-left: 42px;
+  }
+
+  .line-none {
+    display: none;
   }
 }
