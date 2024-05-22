@@ -81,7 +81,40 @@
   color: #fff;
   font-size: 20px;
   border: none;
-  margin-bottom: 150px;
+  margin-bottom: 250px;
+}
+
+.statictic {
+  max-width: 1240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 95px;
+  background-color: #286f6c;
+  padding: 30px 111px;
+  border-radius: 20px 20px 0 0;
+  margin-top: -150px auto 0;
+}
+.line {
+  height: 100px;
+  min-width: 2px;
+  background-color: #fff;
+}
+.statictic-info {
+}
+.statictic-num {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.statictic-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
